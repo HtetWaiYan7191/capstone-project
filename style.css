@@ -1,13 +1,14 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
 }
 
 :root {
-    --dark-color:#272A31;
-    --theme-color:#EC5242;
-    --gray-color:#D3D3D3;
+  --dark-color: #272a31;
+  --theme-color: #ec5242;
+  --gray-color: #d3d3d3;
 }

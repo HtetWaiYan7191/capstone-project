@@ -1,1 +1,96 @@
 @import url(./style.css);
+
+@media screen and (min-width: 375px) {
+  #hero {
+    background-image: url(./images/main-bg-img.png);
+    background-size: cover;
+  }
+
+  .menu-bar {
+    margin-top: 10px;
+  }
+
+  .menu-bar i {
+    font-size: 40px;
+  }
+
+  #intro-section {
+    margin-top: 4rem;
+    padding-bottom: 3rem;
+  }
+
+  #intro-header h3 {
+    color: var(--theme-color);
+    font-size: 2rem;
+
+    /* color: transparent; */
+
+    /* background-size: cover; */
+
+    /* background-image: linear-gradient(180deg, red, yellow); */
+
+    /* background-image: url(./images/bg-for-header.jpg); */
+  }
+
+  #intro-header h1 {
+    font-size: 3rem;
+    background-image: url(./images/orange-wave-bg.jpg);
+    background-size: cover;
+    color: transparent;
+    -webkit-background-clip: text;
+
+    /* background-color: red;  */
+
+    /* background-image: linear-gradient(90deg, red, yellow); */
+    font-weight: 800;
+  }
+
+  .intro-text-container {
+    width: 95%;
+    margin: 3rem auto;
+    border: 3px solid #fff;
+  }
+
+  .intro-text-container p {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+
+  #date-time-container {
+    width: 95%;
+    margin: auto;
+  }
+
+  #date-time-container h4 {
+    color: #4e4949;
+    font-weight: 900;
+    font-size: 1.8rem;
+  }
+
+  #date-time-container p {
+    margin-top: 0.5rem;
+    color: #4e4949;
+    font-size: 1rem;
+  }
+  #main-program-section {
+    background-image: url(./images/dark-theme-background-image.avif);
+    background-size: cover;
+    background-position: center center;
+  }
+  .box-container {
+    border: 1px solid var(--gray-color);
+    border-style: none;
+    background-color: rgba(174, 174, 174,0.4);
+    border-radius: 4px;
+  }
+
+  .icons-color {
+    color: yellow;
+    font-size: 30px;
+  }
+
+  .semi-title {
+    font-size: 20px;
+    color: var(--theme-color);
+  }
+}

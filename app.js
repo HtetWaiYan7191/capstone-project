@@ -28,6 +28,20 @@ const speakers = [
     experience: ' Britney explores the impact of the long tail phenomenon and authored the influential book, The Long Tail: Why the Future of Business Is Selling Less of More, in 2018.',
   },
 
+  {
+    image: './images/zukerberg.jpg',
+    name: 'Mark ZukerBerg',
+    status: 'Mark Zuckerberg, an American technology entrepreneur, is widely known as the co-founder and CEO of Facebook.',
+    experience: 'With his visionary leadership, Zuckerberg has played a pivotal role in shaping the way people connect and communicate online.',
+  },
+
+  {
+    image: './images/elon-musk-speaker.jpg',
+    name: 'Elon Musk',
+    status: 'Elon Musk is a prominent entrepreneur and business magnate known for his involvement in various ventures and industries',
+    experience: 'Elon Musk has founded and co-founded several successful companies, including Tesla, SpaceX, Neuralink.',
+  },
+
 ];
 
 function createSpeaker() {

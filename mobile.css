@@ -85,6 +85,10 @@
     border-radius: 4px;
   }
 
+  #main-program-title {
+    font-size: 30px;
+  }
+
   .icons-color {
     color: var(--theme-color);
     font-size: 30px;
@@ -113,4 +117,50 @@
     background-color: var(--theme-color);
     color: #fff;
   }
+
+  /* FEATURE SPEAKER SECTION */
+  #feature-speaker-section {
+    width: 100%;
+    height: 100vh;
+  }
+
+  #feature-title {
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .chess-square-image {
+    position: absolute;
+    max-width: 90px;
+    max-height: 90px;
+    top: -30px;
+    left: 63px;
+    z-index: -1;
+  }
+
+  .speaker-card {
+    margin-top: 3rem;
+  }
+
+  .speaker-name {
+    font-size: 23px;
+    font-weight: 900;
+  }
+
+  .speaker-status {
+    font-size: 14px;
+    color: var(--theme-color);
+    font-style: italic;
+  }
+
+  .small-line {
+    margin-top: 12px;
+    width: 10%;
+    border:1px solid var(--gray-color)
+  }
+
+  .speaker-experience {
+    font-size: 12px;
+  }
+  
 }

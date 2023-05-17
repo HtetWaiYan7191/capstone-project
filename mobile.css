@@ -73,8 +73,9 @@
     font-size: 1rem;
   }
   #main-program-section {
-    background-image: url(./images/dark-theme-background-image.avif);
+    background-image: url(./images/repeated-pattern-dark-wallpaper.png);
     background-size: cover;
+    /* background-image: linear-gradient(to right, #424141, #505250, #3c3c3d); */
     background-position: center center;
   }
   .box-container {
@@ -85,12 +86,31 @@
   }
 
   .icons-color {
-    color: yellow;
+    color: var(--theme-color);
     font-size: 30px;
+  }
+
+  #line {
+    border: 1px solid var(--theme-color);
+    width: 20%;
+    margin: auto;
   }
 
   .semi-title {
     font-size: 20px;
     color: var(--theme-color);
+  }
+
+  #join-button {
+    width: 70%;
+    margin:2rem auto;
+    padding-bottom: 2rem; 
+  }
+
+  #join-button button {
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    background-color: var(--theme-color);
+    color: #fff;
   }
 }

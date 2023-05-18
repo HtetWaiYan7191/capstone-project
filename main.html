@@ -18,20 +18,21 @@
 </head>
 <body>
     <section id="hero" class="container-fluid">
-        <nav>
-            <div class="menu-bar"><i class="fa-solid fa-bars"></i></div>
-            <div id="nav-wrapper" style="display: none;">
+        <header>
+            <div class="menu-bar"><i class="fa-solid fa-bars p-3" id="open-btn"></i></div>
+            <nav id="nav-wrapper" class="d-md-none">
+                <i class="fa-solid fa-xmark fs-1 ps-5 pt-4" id="cross-btn"></i>
                 <ul class="nav-items">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Program</li>
-                    <li>Join</li>
-                    <li>Sponsors</li>
-                    <li>News</li>
-                    <li>CC campaign</li>
+                    <a href="#/"><li>Home</li></a>
+                    <a href="./about.html"><li>About</li></a>
+                    <a href="#/"><li>Program</li></a>
+                    <a href="#/"><li>Join</li></a>
+                    <a href="#/"><li>Sponsors</li></a>
+                    <a href="#/"><li>News</li></a>
+                    <a href="#/"><li>CC campaign</li></a>
                 </ul>
-            </div>
-        </nav>
+            </nav>
+        </header>
 
         <!-- INTRO SECTION START  -->
         <section id="intro-section">
@@ -143,6 +144,7 @@
 
     <!-- APP JS LINK  -->
     <script src="./app.js"></script>
+    <script src="./menuBar.js"></script>
     <!-- FONTAWESOME ICONS LINK -->
     <script src="https://kit.fontawesome.com/9e6b5903a6.js" crossorigin="anonymous"></script>
     <!-- BOOTSTRAP JS LINK  -->

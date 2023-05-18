@@ -94,7 +94,7 @@
     font-size: 30px;
   }
 
-  #line {
+  .line {
     border: 1px solid var(--theme-color);
     width: 20%;
     margin: auto;

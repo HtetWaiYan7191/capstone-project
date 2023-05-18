@@ -14,6 +14,21 @@
     font-size: 40px;
   }
 
+  .header-logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 2rem;
+  }
+
+  .header-logo {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    animation: image-rotation 10s infinite linear;
+
+  }
+
   #nav-wrapper {
     position: fixed;
     width: 100%;
@@ -254,5 +269,26 @@
     border: 1px solid var(--theme-color);
     max-width: 30%;
     margin: 10px auto;
+  }
+
+  @keyframes image-animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes image-rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
 }

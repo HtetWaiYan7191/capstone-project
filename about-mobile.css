@@ -2,129 +2,128 @@
 @import url(./mobile.css);
 
 #about-intro-header h3 {
-    color: red;
-    font-size: 1.2rem;
-    font-weight:500;
+  color: red;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 #about-intro-header h1 {
-    color: var(--theme-color);
-    font-size: 2.5rem;
-    text-align: center;
-    font-weight: 900;
+  color: var(--theme-color);
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 900;
 }
 
 #welcome-text {
-    color: var(--dark-color);
-    font-weight: 600;    
+  color: var(--dark-color);
+  font-weight: 600;
 }
 
 .welcome-text-container {
-    background-color: #FFFFFF;
-    width: 100%;
-    margin: 3rem auto;
-    padding: 10px 5px;
-    border: 1px solid var(--gray-color);
-    line-height: 1.75rem;
-    
+  background-color: #fff;
+  width: 100%;
+  margin: 3rem auto;
+  padding: 10px 5px;
+  border: 1px solid var(--gray-color);
+  line-height: 1.75rem;
 }
 
 #contact-container {
-   max-width: 100%;
+  max-width: 100%;
 }
 
 .contact-text {
-    font-size: 14px;
-    padding: 0.5rem 1rem 0.5rem;
-    color:rgb(97, 97, 97);
-    font-weight: 600;
-    line-height: 25px;
+  font-size: 14px;
+  padding: 0.5rem 1rem 0.5rem;
+  color: rgb(97, 97, 97);
+  font-weight: 600;
+  line-height: 25px;
 }
 
 .highlight {
-    border: 2px solid var(--theme-color);
-    max-width: 75%;
-    margin:5px  auto;
+  border: 2px solid var(--theme-color);
+  max-width: 75%;
+  margin: 5px  auto;
 }
 
 .logo-text {
-    font-size: 1.2em;
-    font-weight: 700;
-    text-align: center;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-align: center;
 }
 
 .tech-logo-container {
-    max-width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    border: 1px solid var(--gray-color);
-    border-radius: 5px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid var(--gray-color);
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
 }
 
 #tech-logo {
-    max-width: 70%;
-    border-radius: 12px;
+  max-width: 70%;
+  border-radius: 12px;
 }
 
 .past-summit-card {
-    background-size: cover;
-    background-position: center;
-    height: 13rem;
-    max-height: 13rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
+  background-size: cover;
+  background-position: center;
+  height: 13rem;
+  max-height: 13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
 }
 
 #summit-card-one {
-    background-image: linear-gradient(0deg, rgba(183, 34, 20,0.7), rgba(183, 34, 20,0.7)),url(./images/teen-smiling-sumit-2016.avif);
-
+  background-image: linear-gradient(0deg, rgba(183, 34, 20, 0.7), rgba(183, 34, 20, 0.7)), url(./images/teen-smiling-sumit-2016.avif);
 }
 
 #summit-card-two {
-    background-image: linear-gradient(0deg, rgba(183, 34, 20,0.7), rgba(183, 34, 20,0.7)),url(./images/group-people-cheering-2018.webp);
+  background-image: linear-gradient(0deg, rgba(183, 34, 20, 0.7), rgba(183, 34, 20, 0.7)), url(./images/group-people-cheering-2018.webp);
 }
 
 .year {
-    font-weight: 900;
-    font-size: 2.5rem;
+  font-weight: 900;
+  font-size: 2.5rem;
 }
 
 .summit-text-card {
-    font-weight: 800;
-    font-size: 1.9rem;
+  font-weight: 800;
+  font-size: 1.9rem;
 }
 
 .footer-container {
-    position: relative;
-}
-.footer-container img {
-    width: 6erm;
-    height: 6rem;
-    border-radius: 5px;
+  position: relative;
 }
 
-.footer-container h5 {  
-    font-size: 1.25rem;
-    font-weight: 900;
-    flex: 1;
+.footer-container img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 5px;
+}
+
+.footer-container h5 {
+  font-size: 1.25rem;
+  font-weight: 900;
+  flex: 1;
 }
 
 .footer-container p {
-    flex: 1;
-    color: var(--dark-color);
-    font-size: 1rem;
-    font-weight: 600;
+  flex: 1;
+  color: var(--dark-color);
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .copyright-icon {
-    font-size: 1.5rem;
-    position: absolute;
-    top: 43px;
-    left: 18px;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 43px;
+  left: 18px;
 }

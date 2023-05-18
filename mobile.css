@@ -14,6 +14,65 @@
     font-size: 40px;
   }
 
+  #nav-wrapper {
+    position: fixed;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    top: -100%;
+    left: 0;
+    background-color: #fff;
+
+    /* display: none; */
+    transition: all 0.5s ease;
+  }
+
+  #nav-wrapper.open {
+    top: 0;
+  }
+
+  #nav-wrapper i {
+    color: var(--theme-color);
+  }
+
+  #nav-wrapper i:hover {
+    transform: scale(1.5);
+    transition: all 700ms ease;
+  }
+
+  .nav-items {
+    width: 100%;
+    text-align: center;
+    padding-top: 3rem;
+  }
+
+  .nav-items li {
+    padding: 12px 16px;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    color: var(--theme-color);
+  }
+
+  .nav-items a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .nav-items li:hover {
+    background-color: var(--theme-color);
+    border-radius: 5px;
+    color: var(--gray-color);
+    font-style: italic;
+    transition: all 800ms;
+    transform: scale(1.2);
+  }
+
+  #nav-wrapper.active {
+    display: block;
+    opacity: 1;
+  }
+
   #intro-section {
     margin-top: 4rem;
     padding-bottom: 3rem;
@@ -72,16 +131,19 @@
     color: #4e4949;
     font-size: 1rem;
   }
+
   #main-program-section {
     background-image: url(./images/repeated-pattern-dark-wallpaper.png);
     background-size: cover;
+
     /* background-image: linear-gradient(to right, #424141, #505250, #3c3c3d); */
     background-position: center center;
   }
+
   .box-container {
     border: 1px solid var(--gray-color);
     border-style: none;
-    background-color: rgba(174, 174, 174,0.4);
+    background-color: rgba(174, 174, 174, 0.4);
     border-radius: 4px;
   }
 
@@ -107,8 +169,8 @@
 
   #join-button {
     width: 70%;
-    margin:2rem auto;
-    padding-bottom: 2rem; 
+    margin: 2rem auto;
+    padding-bottom: 2rem;
   }
 
   #join-button button {
@@ -155,7 +217,7 @@
   .small-line {
     margin-top: 12px;
     width: 10%;
-    border:1px solid var(--gray-color)
+    border: 1px solid var(--gray-color);
   }
 
   .speaker-experience {
@@ -164,7 +226,7 @@
 
   /* SPONSOR SECTION */
   #sponsor-section {
-    background-color:rgb(100, 100, 100);
+    background-color: rgb(100, 100, 100);
   }
 
   .sponsor-company-container {
@@ -176,8 +238,8 @@
 
   .partner-company {
     font-size: 25px;
-   margin: 30px 15px;
-   color:var(--gray-color);
+    margin: 30px 15px;
+    color: var(--gray-color);
     font-weight: 900;
   }
 
@@ -191,7 +253,6 @@
   #middle-line {
     border: 1px solid var(--theme-color);
     max-width: 30%;
-    margin:10px auto;
+    margin: 10px auto;
   }
-  
 }

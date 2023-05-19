@@ -15,8 +15,9 @@
   }
 
   .header-logo-container {
+    width: 100%;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
     align-content: center;
     margin-top: 2rem;
   }
@@ -46,6 +47,7 @@
   }
 
   #nav-wrapper i {
+    transform: scale(1.5);
     color: var(--theme-color);
   }
 

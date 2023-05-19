@@ -165,4 +165,29 @@
     text-decoration: underline;
     text-decoration-color: #fff;
   }
+
+  /* SPEAKER SECTION START  */
+  .speaker-image {
+    width: 50%;
+    height: 7.8125rem;
+  }
+
+  #feature-speaker-section {
+    padding: 3rem 0;
+  }
+
+  /* SPONSOR SECTION START  */
+
+  #sponsor-section {
+    padding-bottom: 2rem;
+    background-color: var(--footer-color);
+  }
+
+  #sponsor-title {
+    padding-top: 2rem;
+  }
+  .sponsor-company-container {
+    width: 70%;
+    margin: auto;
+  }
 }

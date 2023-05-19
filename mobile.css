@@ -213,6 +213,10 @@
     z-index: -1;
   }
 
+  .speaker-image {
+    width: 75%;
+  }
+
   .speaker-card {
     margin-top: 3rem;
   }

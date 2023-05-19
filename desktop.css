@@ -190,4 +190,35 @@
     width: 70%;
     margin: auto;
   }
+
+  .footer-container {
+    width: 70%;
+    margin: auto;
+    position: relative;
+  }
+
+  .footer-container img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 5px;
+  }
+  
+  .footer-container h5 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    flex: 1;
+  }
+  
+  .footer-container p {
+    flex: 1;
+    color: var(--dark-gray-color  );
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .copyright-icon {
+    font-size: 2rem;
+    position: absolute;
+    top: 1.875rem;
+    left: 5rem;
 }

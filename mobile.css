@@ -239,7 +239,9 @@
   }
 
   .speaker-experience {
+    color: #333333;
     font-size: 12px;
+    font-weight: 600;
   }
 
   /* SPONSOR SECTION */

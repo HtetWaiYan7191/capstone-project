@@ -18,20 +18,43 @@
 <body>
     <section id="hero" class="container-fluid">
         <header>
-            <div class="menu-bar"><i class="fa-solid fa-bars p-3" id="open-btn"></i></div>
+            <div class="contact-icon-container container-fluid p-4 d-md-flex justify-content-end align-items-center d-none">
+                <div class="icons d-flex justify-content-around w-25 align-items-center">
+                    <a href="#/"><i class="fa fa-facebook text-white"></i></a>
+                    <a href="#/"><i class="fa fa-twitter text-white"></i></a>
+                    <span class="text-white">English</span>
+                    <span class="text-white">My Page</span>
+                    <span class="text-white">Log Out</span>
+                </div>
+            </div>
+            <nav class="d-none d-md-block d-md-flex justify-content-between desktop-navbar container-fluid">
+                
+                <div class="header-logo-container">
+                    <a href="./main.html"><img src="./images/tech-conference-logo.webp" class="header-logo" alt=""></a>
+                </div>
+                <ul class="nav-container d-flex align-items-center">
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#intro-setcion">Program</a></li>
+                    <li><a href="#main-program-section">Join</a></li>
+                    <li><a href="#sponsor-section">Sponsors</a></li>
+                    <li><a href="#feature-speaker-section">News</a></li>
+                    <li><a href="#footer-section" id="last-child">CC Campaign</a></li>
+                </ul>
+            </nav>
+            <div class="menu-bar d-block d-md-none"><i class="fa-solid fa-bars p-3" id="open-btn"></i></div>
             <nav id="nav-wrapper" class="d-md-none">
                 <div class="header-logo-container">
                     <a href="./main.html"><img src="./images/tech-conference-logo.webp" class="header-logo" alt=""></a>
                     <i class="fa-solid fa-xmark fs-1 ps-5 pt-4" id="cross-btn"></i>
                 </div>
                 <ul class="nav-items">
-                    <a href="./main.html"><li>Home</li></a>
-                    <a href="./about.html"><li>About</li></a>
-                    <a href="#/"><li>Program</li></a>
-                    <a href="#/"><li>Join</li></a>
-                    <a href="#/"><li>Sponsors</li></a>
-                    <a href="#/"><li>News</li></a>
-                    <a href="#/"><li>CC campaign</li></a>
+                    <li><a href="./main.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#intro-setcion">Program</a></li>
+                    <li><a href="#main-program-section">Join</a></li>
+                    <li><a href="#sponsor-section">Sponsors</a></li>
+                    <li><a href="#feature-speaker-section">News</a></li>
+                    <li><a href="#footer-section">CC Campaign</a></li>
                 </ul>
             </nav>
         </header>
@@ -40,8 +63,9 @@
         <section id="intro-section">
             <div class="row">
                 <div class="col" id="about-intro-header">
-                    <h3 class="text-center">"Hello!Sharing world"</h3>
+                    <h3 class="text-center d-block d-md-none">"Hello!Sharing world"</h3>
                     <h1>Tech. Innovation<br>Conference 2023</h1>
+                    <div class="line d-none d-md-block"></div>
                 </div>
             </div>
             <div class="welcome-text-container">
@@ -49,7 +73,9 @@
                     experts, academics, and activists who comprise the Creative Commons
                     affiliate network in a different country every two.
                     This year, we hope to expand our invitation lists including
-                    organizations and individuals
+                    organizations and individuals who want to work with us on shared projects that advanced the cause of the Commons, free culture and open knowledge.
+                    So if you're active and engaged in the worlds of open content and knowledge - free software advocates. Wikipedians. Open Knowledge,galleries,libraries,museums,archives,governents and foundations,lawyers,and activists - we hope you'll consider joining us this year to build a stronger,
+                    more vibrant commons together.
                 </p>
             </div>
             <div id="contact-container">

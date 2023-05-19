@@ -181,6 +181,7 @@
   #sponsor-section {
     padding-bottom: 2rem;
     background-color: var(--footer-color);
+    min-height: fit-content;
   }
 
   #sponsor-title {

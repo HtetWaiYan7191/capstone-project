@@ -247,6 +247,7 @@
   /* SPONSOR SECTION */
   #sponsor-section {
     background-color: rgb(100, 100, 100);
+    min-height: 500px;
   }
 
   .sponsor-company-container {

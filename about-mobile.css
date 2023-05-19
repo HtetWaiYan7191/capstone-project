@@ -15,7 +15,8 @@
 }
 
 #welcome-text {
-  color: var(--dark-color);
+  font-size: 14px;
+  color: var(--dark-gray-color);
   font-weight: 600;
 }
 
@@ -44,6 +45,11 @@
   border: 2px solid var(--theme-color);
   max-width: 75%;
   margin: 5px  auto;
+}
+
+#logo-section {
+  border-bottom: 1px solid var(--gray-color);
+  padding-bottom: 3rem;
 }
 
 .logo-text {
@@ -98,8 +104,13 @@
   font-size: 1.9rem;
 }
 
+#footer-section {
+  max-height: 100px;
+}
+
 .footer-container {
   position: relative;
+  padding-bottom: 1rem;
 }
 
 .footer-container img {

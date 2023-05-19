@@ -239,7 +239,7 @@
   }
 
   .speaker-experience {
-    color: #333333;
+    color: #333;
     font-size: 12px;
     font-weight: 600;
   }
@@ -247,7 +247,6 @@
   /* SPONSOR SECTION */
   #sponsor-section {
     background-color: rgb(100, 100, 100);
-    min-height: 500px;
   }
 
   .sponsor-company-container {

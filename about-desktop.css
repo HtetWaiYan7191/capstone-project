@@ -1,1 +1,32 @@
 @import url(./style.css);
+@import url(./desktop.css);
+
+
+#intro-section {
+    margin-top: 0;
+    padding-top: 3rem;
+}
+#about-intro-header h1 {
+    font-size: 3rem;
+}
+.welcome-text-container {
+    width: 70%;
+    margin:2rem auto;
+}
+
+#welcome-text {
+    font-size: 13px;
+    text-align: center;
+    color: var(--dark-gray-color);
+    padding: 10px 20px;
+}
+
+.highlight {
+    width: 25%;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.contact-text {
+    margin-bottom: 0;
+}

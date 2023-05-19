@@ -58,6 +58,11 @@
     font-weight: 600;
   }
 
+  .nav-container li a:hover {
+    color: var(--theme-color);
+    transition: color 0.2s ease-out;
+  }
+
   #first-child {
     color: var(--theme-color);
   }

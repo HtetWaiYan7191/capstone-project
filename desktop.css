@@ -84,4 +84,42 @@
     font-weight: 600;
     font-style: italic;
   }
+
+  /* INTRO SECTION START  */
+  #intro-header h3,
+  h1,
+  #date-time-container h4,
+  p {
+    width: 70%;
+    margin: auto;
+  }
+
+
+
+  #intro-header h3 {
+    font-size: 2.5rem;
+  }
+
+  #intro-header h1 {
+    font-size: 4rem;
+  }
+
+  .intro-text-container {
+    width: 55%;
+    margin-left: 15%;
+    display: flex;
+  }
+
+  .intro-text-container p {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    align-self: center;
+    padding: 20px 10px;
+    margin: 0;
+  }
+
+  #date-time-container p {
+    font-weight: 600;
+  }
 }

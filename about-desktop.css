@@ -1,7 +1,9 @@
 @import url(./style.css);
 @import url(./desktop.css);
 
-
+#hero {
+    border: 1px solid var(--gray-color);
+}
 #intro-section {
     margin-top: 0;
     padding-top: 3rem;
@@ -28,5 +30,31 @@
 }
 
 .contact-text {
-    margin-bottom: 0;
+    width: 60%;
+    margin:3rem auto 2rem auto;
+}
+
+#logo-section {
+    border-bottom: 1px solid var(--gray-color);
+    padding-bottom: 2rem;
+}
+
+.tech-logo-container {
+    max-width: 30%;
+}
+
+/* SUMMIT SECTIN  */
+#past-summit {
+    width:70%;
+    margin: auto;
+    padding:0 0 2rem 0 ;
+}
+
+#footer-section {
+    padding: 5rem 0;
+    background-color: var(--footer-color);
+}
+
+#footer-section h5, #footer-section p, .copyright-icon {
+    color: #FFFFFF;
 }

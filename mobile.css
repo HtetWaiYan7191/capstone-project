@@ -178,7 +178,7 @@
 
   .semi-title {
     font-size: 20px;
-    color: var(--theme-color);
+    color: var(--subtheme-color);
   }
 
   #join-button {

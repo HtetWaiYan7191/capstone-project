@@ -89,7 +89,7 @@
   #intro-header h3,
   h1,
   #date-time-container h4,
-  p {
+  #date-time-container p {
     width: 70%;
     margin: auto;
   }
@@ -121,5 +121,48 @@
 
   #date-time-container p {
     font-weight: 600;
+  }
+
+  /* MAIN PROGRAM SECTION START  */
+  .line {
+    width: 8%;
+    margin: auto;
+  }
+
+  .main-program-desktop {
+    max-width: 1040px;
+  }
+  .item-container-wrapper {
+    
+  }
+  .item-container {
+    width: 193px;
+    height: 210px;
+  }
+
+  .item-container:hover {
+    border: 4px solid #FFFFFF;
+    transition: all 0.4s ease;
+  }
+
+  .item-container p {
+    font-size: 14px;
+    padding: 0px;
+  }
+
+  .semi-title {
+    font-size:  1.5625rem;
+  }
+
+  .see-program-text-container h5 {
+    font-size: 14px;
+    text-align: center;
+    margin: 4rem auto 0rem auto ;
+    padding-bottom: 4rem;
+    font-weight: 600;
+  }
+  .see-program-text-container a {
+    text-decoration: underline;
+    text-decoration-color: #fff;
   }
 }

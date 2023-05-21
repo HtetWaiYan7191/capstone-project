@@ -224,3 +224,11 @@
     left: 5rem;
   }
 }
+
+@media screen and (max-width:1300px){
+  #item-container-wrapper {
+    max-width: 991px;
+    margin:0px auto;
+}
+  }
+}

@@ -6,6 +6,10 @@
     border: 1px solid var(--gray-color);
   }
 
+  .header-logo-container {
+    margin: 0px 0px ;
+  }
+
   #intro-section {
     margin-top: 0;
     padding-top: 3rem;

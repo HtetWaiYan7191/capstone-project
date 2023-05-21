@@ -3,6 +3,7 @@
 @media screen and (min-width: 768px) {
   #hero {
     padding: 0;
+    background-size: auto;
   }
 
   .desktop-navbar {
@@ -30,7 +31,9 @@
 
   .header-logo-container {
     height: auto;
-    margin-top: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
   }
 
   .header-logo {
@@ -145,7 +148,7 @@
   }
 
   .main-program-desktop {
-    max-width: 1040px;
+    max-width: 100%;
   }
 
   .item-container {

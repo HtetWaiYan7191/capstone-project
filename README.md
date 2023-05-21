@@ -2,21 +2,23 @@
 <a name="readme-top"></a>
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-    - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[My\_Capstone\_Project\] ](#-my_capstone_project-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Example commands:](#example-commands)
+    - [Setup](#setup)
+    - [Deployment ](#deployment-)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -85,7 +87,7 @@ Clone this repository to your desired folder:
 ### Deployment <a name="deployment"></a>
 
 You can access this project by using the link below...<br>
-[My Capstone Project]()
+[My Capstone Project](https://htetwaiyan7191.github.io/capstone-project/#main-program-section)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -119,7 +121,7 @@ You can access this project by using the link below...<br>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/HtetWaiYan7191/My-Portfolio-Microverse/issues).
+Feel free to check the [issues page](https://github.com/HtetWaiYan7191/capstone-project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,7 +131,7 @@ Feel free to check the [issues page](https://github.com/HtetWaiYan7191/My-Portfo
 
 
 If you like this project follow me on github and wait for more projects.
-- GitHub: [@githubhandle](https://github.com/HtetWaiYan7191)
+- GitHub: [@HtetWaiYan7191](https://github.com/HtetWaiYan7191)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -225,8 +225,8 @@
   }
 }
 
-@media screen and (max-width: 1300px) {
-  #item-container-wrapper {
+@media screen and (min-width: 1300px) {
+  .item-container-wrapper {
     max-width: 991px;
     margin: 0 auto;
   }

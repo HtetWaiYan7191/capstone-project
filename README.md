@@ -10,8 +10,9 @@
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
-    - [Example commands:](#example-commands)
     - [Setup](#setup)
+    - [Install](#install)
+    - [Run tests](#run-tests)
     - [Deployment ](#deployment-)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
@@ -24,9 +25,9 @@
 
 # 📖 [My_Capstone_Project] <a name="about-project"></a>
 
-It is a global submit project about Tech .
+It is a web Page for Tech Conference Summit.
 
-**[My_Capstone_Project]** is a project we have to build at the end of the module.
+**[My_Capstone_Project]** is a project for Tech Conference Summit.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -47,8 +48,6 @@ It is a global submit project about Tech .
 
 ### Key Features <a name="key-features"></a>
 
-
-
 - **[Conference_submit_website]**
 - **[Responsive_design_for_any_devices]**
 - **[Interactive_website_using_javascript]**
@@ -59,7 +58,7 @@ It is a global submit project about Tech .
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://htetwaiyan7191.github.io/capstone-project/#main-program-section)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,28 +73,43 @@ It is a global submit project about Tech .
 
 In order to run this project you need:
 
+* GitHub
+* Code Editor
+
+### Setup
+
 Clone this repository to your desired folder:
-### Example commands:
+<br>
 <code>
   git clone https://github.com/HtetWaiYan7191/capstone-project.git
   cd capstone-project.git
 </code>
 
-### Setup
 
+### Install
+
+Install this project with:
+
+* npm install
+
+
+### Run tests
+
+To run tests, run the following command: 
+
+* npx hint . 
+* npx stylelint "**/*.{css,scss}"
+* npx eslint .
 
 ### Deployment <a name="deployment"></a>
 
-You can access this project by using the link below...<br>
-[My Capstone Project](https://htetwaiyan7191.github.io/capstone-project/#main-program-section)
+You can deploy this project using: GitHub Pages
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-
 
 👤 **Htet Wai Yan**
 
@@ -111,6 +125,8 @@ You can access this project by using the link below...<br>
 
 
 - [ ] **[add_JS_files]**
+- [ ] **[add_additional_pages]**
+- [ ] **[add_animation]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -140,8 +156,7 @@ If you like this project follow me on github and wait for more projects.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-I would like to thank Microverse for required documentations and instructions
+I would like to acknowledge and give credit to the original designer Cindy Shin on Behance and Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

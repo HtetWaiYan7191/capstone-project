@@ -60,8 +60,23 @@
   }
 
   #footer-section {
-    padding: 5rem 0;
+    /* padding: 5rem 0; */
     background-color: var(--footer-color);
+    height: 500px;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-container {
+    padding-bottom: 0;
+  }
+
+  .copyright-icon-about {
+    color: #FFFFFF;
+    font-size: 2rem;
+    position: absolute;
+    top: 31px;
+    left: 137px;
   }
 
   #footer-section h5,

@@ -230,4 +230,8 @@
     max-width: 991px;
     margin: 0 auto;
   }
+
+  .copyright-icon {
+    left: 10.2rem;
+  }
 }

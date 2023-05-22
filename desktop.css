@@ -3,13 +3,13 @@
 @media screen and (min-width: 768px) {
   #hero {
     padding: 0;
-    background-size: auto;
+    height: 855px;
+    background-image: url(./images/main_big.png);
+    background-repeat: repeat-x;
+    background-position: bottom left 40%;
   }
 
   .desktop-navbar {
-    /* position: fixed; */
-    top: 0;
-    left: 0;
     width: 100%;
     z-index: 20;
     background-color: #fff;
@@ -188,6 +188,7 @@
   .speaker-image {
     width: 50%;
     height: 7.8125rem;
+    aspect-ratio: 1/2;
   }
 
   #feature-speaker-section {

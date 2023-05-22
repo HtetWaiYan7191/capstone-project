@@ -36,8 +36,6 @@
     top: -100%;
     left: 0;
     background-color: #fff;
-
-    /* display: none; */
     transition: all 0.5s ease;
   }
 
@@ -139,8 +137,6 @@
   #main-program-section {
     background-image: url(./images/repeated-pattern-dark-wallpaper.png);
     background-size: cover;
-
-    /* background-image: linear-gradient(to right, #424141, #505250, #3c3c3d); */
     background-position: center center;
   }
 
@@ -205,6 +201,7 @@
 
   .speaker-image {
     width: 75%;
+    aspect-ratio: 1/1;
   }
 
   .speaker-card {

@@ -58,12 +58,37 @@
     text-decoration-color: #fff;
   }
 
+  .icons {
+    margin-right: 6rem;
+  }
+
+  .icons a {
+    color: #fff;
+  }
+
+  .icons:first-child {
+    cursor: pointer;
+  }
+
+  .icons span {
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    color: #fff;
+  }
+
   .nav-container li a {
     text-decoration: none;
     color: var(--dark-color);
     margin: 0 15px;
     font-size: 14px;
     font-weight: 600;
+  }
+
+  .icons a:hover,
+  .icons span:hover {
+    color: var(--theme-color);
+    transition: color 0.4s ease;
   }
 
   .nav-container li a:hover {
@@ -77,20 +102,6 @@
 
   #last-child {
     color: var(--theme-color);
-  }
-
-  .icons {
-    margin-right: 6rem;
-  }
-
-  .icons:first-child {
-    cursor: pointer;
-  }
-
-  .icons span {
-    font-size: 14px;
-    font-weight: 600;
-    font-style: italic;
   }
 
   .intro-text-container p {

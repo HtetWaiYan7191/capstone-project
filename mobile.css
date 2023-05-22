@@ -128,6 +128,13 @@
     font-size: 1.8rem;
   }
 
+  .footer-container p {
+    flex: 1;
+    color: var(--dark-color);
+    font-size: 14px;
+    font-weight: 600;
+  }
+
   #date-time-container p {
     margin-top: 0.5rem;
     color: #4e4949;
@@ -233,7 +240,7 @@
 
   /* SPONSOR SECTION */
   #sponsor-section {
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(71 70 70);
   }
 
   .sponsor-company-container {
@@ -261,6 +268,27 @@
     border: 1px solid var(--theme-color);
     max-width: 30%;
     margin: 10px auto;
+  }
+
+  #footer-section {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .footer-container h5 {
+    font-size: 1.25rem;
+    font-weight: 900;
+    flex: 1;
+  }
+
+  #footer-img {
+    width: 100px;
+    height: 50px;
+    aspect-ratio: 2/1;
+  }
+
+  .copyright-text {
+    width: 200px;
   }
 
   @keyframes image-animation {

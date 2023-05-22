@@ -214,7 +214,6 @@
   .footer-container {
     width: 70%;
     margin: auto;
-    position: relative;
   }
 
   .footer-container img {
@@ -229,11 +228,15 @@
     flex: 1;
   }
 
-  .copyright-icon {
-    font-size: 2rem;
-    position: absolute;
-    top: 1.875rem;
-    left: 5rem;
+  #footer-img {
+    width: 167px;
+    height: 65px;
+    aspect-ratio: 2/1;
+    margin-right: 3rem;
+  }
+
+  .copyright-text {
+    width: 500px;
   }
 }
 
@@ -243,7 +246,7 @@
     margin: 0 auto;
   }
 
-  .copyright-icon {
-    left: 10.2rem;
+  .copyright-text {
+    width: 700px;
   }
 }

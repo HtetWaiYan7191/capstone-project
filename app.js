@@ -70,4 +70,4 @@ function createSpeaker() {
   });
 }
 
-createSpeaker();
+window.addEventListener('load', createSpeaker);

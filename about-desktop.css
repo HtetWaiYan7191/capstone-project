@@ -1,0 +1,96 @@
+@import url(./style.css);
+@import url(./desktop.css);
+
+@media screen and (min-width: 768px) {
+  #hero {
+    border: 1px solid var(--gray-color);
+    background-size: contain;
+    background-image: url(./images/about_bg_01.png);
+    background-position: 52%;
+  }
+
+  .header-logo-container {
+    margin: 0 0;
+  }
+
+  #intro-section {
+    margin-top: 0;
+    padding-top: 3rem;
+  }
+
+  #about-intro-header h1 {
+    font-size: 3rem;
+  }
+
+  .welcome-text-container {
+    width: 70%;
+    margin: 2rem auto;
+  }
+
+  #welcome-text {
+    font-size: 13px;
+    text-align: center;
+    color: var(--dark-gray-color);
+    padding: 10px 20px;
+  }
+
+  .highlight {
+    width: 25%;
+    margin: auto;
+    border-radius: 10%;
+  }
+
+  .contact-text {
+    width: 60%;
+    margin: 3rem auto 0 auto;
+  }
+
+  #logo-section {
+    border-bottom: 1px solid var(--gray-color);
+    padding-bottom: 2rem;
+  }
+
+  .tech-logo-container {
+    margin-top: 1rem;
+    max-width: 30%;
+  }
+
+  /* SUMMIT SECTIN  */
+  #past-summit {
+    width: 70%;
+    margin: auto;
+    padding: 0 0 2rem 0;
+  }
+
+  #footer-section {
+    /* padding: 5rem 0; */
+    background-color: var(--footer-color);
+    height: 500px;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-container {
+    padding-bottom: 0;
+  }
+
+  .copyright-icon-about {
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    top: 31px;
+    left: 137px;
+  }
+
+  #footer-section h5,
+  #footer-section p,
+  .copyright-icon {
+    color: #fff;
+  }
+
+  .copyright-title h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+  }
+}

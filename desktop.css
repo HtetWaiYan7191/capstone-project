@@ -1,0 +1,252 @@
+@import url(./style.css);
+
+@media screen and (min-width: 768px) {
+  #hero {
+    padding: 0;
+    height: 855px;
+    background-image: url(./images/main_big.png);
+    background-repeat: repeat-x;
+    background-position: bottom left 40%;
+  }
+
+  .desktop-navbar {
+    width: 100%;
+    z-index: 20;
+    background-color: #fff;
+    align-content: center;
+    padding: 10px 8rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  }
+
+  .contact-icon-container {
+    background-color: var(--dark-gray-color);
+    width: 100%;
+    max-height: 40px;
+    height: 20px;
+  }
+
+  #intro-section {
+    padding-top: 3rem;
+  }
+
+  .header-logo-container {
+    height: auto;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .header-logo {
+    width: 3rem;
+    height: 3rem;
+    align-self: center;
+  }
+
+  .nav-container li {
+    cursor: pointer;
+  }
+
+  .nav-container li:last-child {
+    border: 4px solid var(--theme-color);
+    padding: 10px 15px;
+    margin-left: 1.75rem;
+    color: var(--theme-color);
+  }
+
+  .see-program-text-container a {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+  }
+
+  .icons {
+    margin-right: 6rem;
+  }
+
+  .icons a {
+    color: #fff;
+  }
+
+  .icons:first-child {
+    cursor: pointer;
+  }
+
+  .icons span {
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    color: #fff;
+  }
+
+  .nav-container li a {
+    text-decoration: none;
+    color: var(--dark-color);
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .icons a:hover,
+  .icons span:hover {
+    color: var(--theme-color);
+    transition: color 0.4s ease;
+  }
+
+  .nav-container li a:hover {
+    color: var(--theme-color);
+    transition: color 0.2s ease-out;
+  }
+
+  #first-child {
+    color: var(--theme-color);
+  }
+
+  #last-child {
+    color: var(--theme-color);
+  }
+
+  .intro-text-container p {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    align-self: center;
+    padding: 20px 10px;
+    margin: 0;
+  }
+
+  .item-container p {
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .footer-container p {
+    flex: 1;
+    color: var(--dark-gray-color);
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  /* INTRO SECTION START  */
+  #intro-header h3,
+  h1,
+  #date-time-container h4,
+  #date-time-container p {
+    width: 70%;
+    margin: auto;
+  }
+
+  #intro-header h3 {
+    font-size: 2.5rem;
+  }
+
+  #intro-header h1 {
+    font-size: 4rem;
+  }
+
+  .intro-text-container {
+    width: 55%;
+    margin-left: 15%;
+    display: flex;
+  }
+
+  #date-time-container p {
+    font-weight: 600;
+  }
+
+  /* MAIN PROGRAM SECTION START  */
+  .line {
+    width: 8%;
+    margin: auto;
+  }
+
+  .main-program-desktop {
+    max-width: 100%;
+  }
+
+  .item-container {
+    width: 193px;
+    height: 210px;
+  }
+
+  .item-container:hover {
+    border: 4px solid #fff;
+    transition: all 0.4s ease;
+  }
+
+  .semi-title {
+    font-size: 1.5625rem;
+  }
+
+  .see-program-text-container h5 {
+    font-size: 14px;
+    text-align: center;
+    margin: 4rem auto 0 auto;
+    padding-bottom: 4rem;
+    font-weight: 600;
+  }
+
+  /* SPEAKER SECTION START  */
+  .speaker-image {
+    width: 50%;
+    height: 7.8125rem;
+    aspect-ratio: 1/2;
+  }
+
+  #feature-speaker-section {
+    padding: 3rem 0;
+  }
+
+  /* SPONSOR SECTION START  */
+
+  #sponsor-section {
+    padding-bottom: 2rem;
+    background-color: var(--footer-color);
+  }
+
+  #sponsor-title {
+    padding-top: 2rem;
+  }
+
+  .sponsor-company-container {
+    width: 70%;
+    margin: auto;
+  }
+
+  .footer-container {
+    width: 70%;
+    margin: auto;
+  }
+
+  .footer-container img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 5px;
+  }
+
+  .footer-container h5 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    flex: 1;
+  }
+
+  #footer-img {
+    width: 167px;
+    height: 65px;
+    aspect-ratio: 2/1;
+    margin-right: 3rem;
+  }
+
+  .copyright-text {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .item-container-wrapper {
+    max-width: 991px;
+    margin: 0 auto;
+  }
+
+  .copyright-text {
+    width: 700px;
+  }
+}

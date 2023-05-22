@@ -113,8 +113,8 @@
 }
 
 .footer-container img {
+  aspect-ratio: 2/1;
   width: 6rem;
-  height: 6rem;
 }
 
 .footer-container h5 {

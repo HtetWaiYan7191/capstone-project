@@ -58,7 +58,7 @@ It is a web Page for Tech Conference Summit.
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://htetwaiyan7191.github.io/capstone-project/#main-program-section)
+- [Live Demo Link](https://htetwaiyan7191.github.io/capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -51,7 +51,7 @@ function createSpeaker() {
         <div class="row">
             <figure class="col-5 d-flex justify-content-end">
                 <img src="./images/orange-tech-image.png" class="chess-square-image position-relative" alt="">
-                <img src=${speaker.image} class="rounded-2 speaker-image" alt="">
+                <img src=${speaker.image} class="rounded-2 speaker-image" alt="${speaker.name}">
             </figure>
             <div class="col-7">
                 <div class="speaker-about-container">

@@ -1,10 +1,10 @@
-@import url(./style.css);
+@import url(../style.css);
 
 @media screen and (min-width: 768px) {
   #hero {
     padding: 0;
     height: 855px;
-    background-image: url(./images/main_big.png);
+    background-image: url(../images/main_big.png);
     background-repeat: repeat-x;
     background-position: bottom left 40%;
   }

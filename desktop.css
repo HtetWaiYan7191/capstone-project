@@ -191,6 +191,11 @@
     aspect-ratio: 1/2;
   }
 
+  #speaker-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
   #feature-speaker-section {
     padding: 3rem 0;
   }

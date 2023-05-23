@@ -1,11 +1,11 @@
-@import url(./style.css);
+@import url(../style.css);
 @import url(./desktop.css);
 
 @media screen and (min-width: 768px) {
   #hero {
     border: 1px solid var(--gray-color);
     background-size: contain;
-    background-image: url(./images/about_bg_01.png);
+    background-image: url(../images/about_bg_01.png);
     background-position: 52%;
   }
 

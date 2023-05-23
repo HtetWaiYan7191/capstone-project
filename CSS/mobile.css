@@ -1,8 +1,8 @@
-@import url(./style.css);
+@import url(../style.css);
 
 @media screen and (min-width: 375px) {
   #hero {
-    background-image: url(./images/main-bg-img.png);
+    background-image: url(../images/main-bg-img.png);
     background-size: cover;
   }
 
@@ -98,7 +98,7 @@
 
   #intro-header h1 {
     font-size: 3rem;
-    background-image: url(./images/orange-wave-bg.jpg);
+    background-image: url(../images/orange-wave-bg.jpg);
     background-size: cover;
     color: transparent;
     background-clip: border-box; /* Standard property */
@@ -142,7 +142,7 @@
   }
 
   #main-program-section {
-    background-image: url(./images/repeated-pattern-dark-wallpaper.png);
+    background-image: url(../images/repeated-pattern-dark-wallpaper.png);
     background-size: cover;
     background-position: center center;
   }

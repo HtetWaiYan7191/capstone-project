@@ -1,4 +1,4 @@
-@import url(./style.css);
+@import url(../style.css);
 @import url(./mobile.css);
 
 #about-intro-header h3 {
@@ -87,11 +87,11 @@
 }
 
 #summit-card-one {
-  background-image: linear-gradient(0deg, rgba(183, 34, 20, 0.7), rgba(183, 34, 20, 0.7)), url(./images/teen-smiling-sumit-2016.avif);
+  background-image: linear-gradient(0deg, rgba(183, 34, 20, 0.7), rgba(183, 34, 20, 0.7)), url(../images/teen-smiling-sumit-2016.avif);
 }
 
 #summit-card-two {
-  background-image: linear-gradient(0deg, rgba(183, 34, 20, 0.7), rgba(183, 34, 20, 0.7)), url(./images/group-people-cheering-2018.webp);
+  background-image: linear-gradient(0deg, rgba(183, 34, 20, 0.7), rgba(183, 34, 20, 0.7)), url(../images/group-people-cheering-2018.webp);
 }
 
 .year {

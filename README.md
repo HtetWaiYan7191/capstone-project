@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[My\_Capstone\_Project\] ](#-my_capstone_project-)
+- [📖 \[Tech Conference Summit\] ](#-tech-conference-summit-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -24,11 +24,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My_Capstone_Project] <a name="about-project"></a>
+# 📖 [Tech Conference Summit] <a name="about-project"></a>
 
-It is a web Page for Tech Conference Summit.
+It is the website for the Tech Conference Summit. You may see details regarding when and where the project should be implemented.
 
-**[My_Capstone_Project]** is a project for Tech Conference Summit.
+**[Tech Conference Summit]** is a web page for Tech Conference Summit.
 
 ## 🛠 Built With <a name="built-with"></a>
 
